@@ -1,5 +1,5 @@
 # SAS UR Control Template
-
+This repo is under development and it is based on "SAS UR Control Template: https://github.com/MarinhoLab/sas_ur_control_template". 
 > [!TIP]
 > Repository for this template: https://github.com/MarinhoLab/sas_ur_control_template \
 > More information about SmartArmStack is available in https://smartarmstack.github.io/.

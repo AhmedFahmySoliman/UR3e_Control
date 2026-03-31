@@ -1,6 +1,6 @@
 services:
   sas_ur_control_template:
-    build: https://github.com/MarinhoLab/sas_ur_control_template.git#main:.devel/sas_ur_control_template
+    build: https://github.com/AhmedFahmySoliman/UR3e_Control.git#main:.devel/sas_ur_control_template
     stop_signal: SIGINT
     stop_grace_period: 1m
     network_mode: "host" # Reverse connection with UR robot

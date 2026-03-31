@@ -76,7 +76,7 @@ def main(args=None):
             clock.update_and_sleep()
 
             # Move the joints
-            target_joint_positions = joint_positions + 0*deg2rad([5.0 * sin(i / (50.0 * pi))] * 6)
+            target_joint_positions = joint_positions + deg2rad([5.0 * sin(i / (50.0 * pi))] * 6)
             # print(target_joint_positions)
             rdi.send_target_joint_positions(target_joint_positions)
 
